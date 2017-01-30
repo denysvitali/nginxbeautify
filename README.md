@@ -7,7 +7,7 @@ This module beautifies and formats Nginx configuration files like so:
 * whitespaces are collapsed, except in comments an quotation marks
 
 # Need to format quickly?
-Use @vasilevich website: [nginxbeautifier.com](https://nginxbeautifier.com)
+Use [vasilevich](https://github.com/vasilevich/) website: [nginxbeautifier.com](https://nginxbeautifier.com)
 
 # Instructions
 `npm install nginxbeautify`  
