@@ -4,9 +4,6 @@
   "description": "Nginx Configuration Beautifier",
   "main": "nginxbeautify/main.js",
   "git": "git@github.com:denysvitali/nginxbeautify.git",
-  "bin": {
-    "nginxbeautifier": "nginxbeautifier.js"
-  },
   "engines": {
     "node": ">0.10.32"
   },
