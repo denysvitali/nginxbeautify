@@ -1,37 +1,41 @@
 {
-  "name": "nginxbeautifier",
-  "version": "1.0.10",
+  "name": "nginxbeautify",
+  "version": "2.0.0",
   "description": "Nginx Configuration Beautifier",
-  "main": "nginxbeautifier",
-  "git": "git@github.com:vasilevich/nginxbeautifier.git",
+  "main": "nginxbeautify/main.js",
+  "git": "git@github.com:denysvitali/nginxbeautify.git",
   "bin": {
     "nginxbeautifier": "nginxbeautifier.js"
   },
-  "preferGlobal": true,
   "engines": {
     "node": ">0.10.32"
   },
   "keywords": [
     "nginx",
-    "beautifier",
+    "beautify",
     "formatter",
     "prettifier",
     "pretty",
     "config",
     "server"
   ],
-  "author": "Yosef <vasilevich1234@gmail.com> (https://nginxbeautifier.com)",
+  "author": "Denys Vitali <denys@denv.it>",
+  "contributors": [
+    "Yosef <vasilevich1234@gmail.com> (https://nginxbeautifier.com)"
+  ],
   "license": "Apache-2.0",
   "scripts": {
     "test": "nginxbeautifier"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vasilevich/nginxbeautifier.git"
+    "url": "git+https://github.com/denysvitali/nginxbeautify.git"
   },
   "bugs": {
-    "url": "https://github.com/vasilevich/nginxbeautifier/issues"
+    "url": "https://github.com/denysvitali/nginxbeautify/issues"
   },
-  "homepage": "https://github.com/vasilevich/nginxbeautifier#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/denysvitali/nginxbeautify#readme",
+  "dependencies": {
+    "extend": "^3.0.0"
+  }
 }
