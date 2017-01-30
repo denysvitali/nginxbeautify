@@ -6,6 +6,9 @@ This module beautifies and formats Nginx configuration files like so:
 * curly braces placement follows Java convention
 * whitespaces are collapsed, except in comments an quotation marks
 
+# Need to format quickly?
+Use @vasilevich website: [nginxbeautifier.com](https://nginxbeautifier.com)
+
 # Instructions
 `npm install nginxbeautify`  
 
