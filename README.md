@@ -22,6 +22,16 @@ let instance = new Beautify({tabs: 1});
 console.log(instance.parse(file));
 ```
 
+# Options
+```js
+
+let Beautify = require('nginxbeautify');
+let instance = new Beautify({
+    spaces: 0,
+    tabs: 0,
+    dontJoinCurlyBracet: true
+});
+```
 
 ## Credits
 
