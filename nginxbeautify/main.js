@@ -120,7 +120,7 @@
 
             for (var index = 0, newline = 0; index < splittedByLines.length; index++) {
                 splittedByLines[index] = splittedByLines[index].trim();
-                if (!splittedByLines[index].startsWith("#") && splittedByLines[index] != "") {
+                if (!splittedByLines[index].startsWith("#") && !splittedByLines[index].startsWith("sub_filter") && splittedByLines[index] != "") {
                     newline = 0;
                     var line = splittedByLines[index] = this.strip_line(splittedByLines[index]);
                     if (line != "}" && line != "{") {
